@@ -1,0 +1,43 @@
+{
+  "name": "big-event",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config vite.config.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@vuemap/vue-amap": "^2.1.1",
+    "@vuemap/vue-amap-extra": "^2.1.1",
+    "@vuemap/vue-amap-loca": "^2.1.1",
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.5.1",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.4.1",
+    "gsap": "^3.12.5",
+    "mitt": "^3.0.1",
+    "pinia": "^2.1.7",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "qweather-icons": "^1.6.0",
+    "swiper": "^8.4.7",
+    "three": "^0.140.2",
+    "vscode-element-helper": "file:c:/Users/adsg/.vscode/extensions/elemefe.vscode-element-helper-0.5.6",
+    "vue": "^3.3.4",
+    "vue-amap": "^0.5.10",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-router": "^4.2.5",
+    "@tweenjs/tween.js": "^18.6.4",
+    "core-js": "^2.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "less": "^4.2.0",
+    "sass": "^1.69.4",
+    "stylus": "^0.63.0",
+    "stylus-loader": "^8.1.0",
+    "vite": "^4.4.11",
+    "d3": "^7.4.4"
+  }
+}

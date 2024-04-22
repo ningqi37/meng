@@ -1,0 +1,83 @@
+/* 加载动画 */
+.progress-bar-box {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    /* animation: fadeOut 5s forwards; */
+    background-size: 100% 100%;
+    display: flex;
+    background-image: url('../HomeImage/enter_background.png');
+}
+
+/* 进入过渡的起始状态 */
+.fade-enter {
+    opacity: 0;
+  }
+  
+  /* 进入过渡的结束状态 */
+  .fade-enter-active {
+    transition: opacity 1s;
+    opacity: 1;
+  }
+  
+  /* 离开过渡的结束状态 */
+  .fade-leave-active {
+    transition: opacity 1s;
+    opacity: 0;
+  }
+
+/* 导航红色历史 */
+.to_RedHistory{
+    width:150px;
+    height:130px;
+    background-image: url('../HomeImage/route_button.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    /* transform: translateX(-30%); */
+    cursor: pointer;
+    color:antiquewhite;
+    font-size: 18px;
+}
+.to_RedTravel{
+    width: 150px;
+    height:130px;
+    background-image: url('../HomeImage/route_button.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    /* position: absolute; */
+    /* bottom: 20px; */
+    /* left: 45%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color:antiquewhite;
+    font-size: 18px;
+}
+.to_ShowData{
+    width: 150px;
+    height:130px;
+    background-image: url('../HomeImage/route_button.png');
+    background-size: 100% 100%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    right: 30%;
+    cursor: pointer;
+    color:antiquewhite;
+    font-size: 18px;
+}
