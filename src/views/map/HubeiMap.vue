@@ -1197,7 +1197,7 @@ function addEnergyModel() {
             setEnergyWave(vector, colorLevel);
             // 添加告警标记
             //console.log(index);
-            setEnergyCylinder(vector, colorLevel[elem.color],elem.name,index+1);
+            setEnergyCylinder(vector, colorLevel[elem.color],elem.name,index);
             // 添加告警名称
             // setEnergyName(vector, colorLevel, elem);
             // 先隐藏，通过按钮控制
